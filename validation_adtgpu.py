@@ -56,8 +56,8 @@ for hit in hits:
         rmsdfirst = clusend + 14
         i = 0
         for line in lines:
-            if re.search(r'Program run time',line):
-                rmsdend = i  - 4
+            if re.search(r'Run time',line):
+                rmsdend = i  - 2
                 break
             else:
                 i = i + 1
